@@ -23,7 +23,7 @@ export const HeroSec = () => {
                 </div>
             </section>
 
-            <section className='px-36 md:px-48 lg:px-96'>
+            <section className='px-36 md:px-20 lg:px-96'>
                 <div class="grid grid-flow-col grid-rows-2 gap-4">
                 <div class="col-span-2 row-span-1 border-red-300 border-2 z-40"><h2 className='float-left font-bold text-green-50 text-5xl'>
                         Disfruta de los irresistibles <br/>
@@ -37,7 +37,7 @@ export const HeroSec = () => {
                         salados</strong></em>, y un exquisito <em><strong>Queso mantecoso libre de gluten</strong></em>. Cada creación está hecha con amor y cuidado para garantizar el mejor sabor en cada bocado.
                         ¡Visítanos y descubre el auténtico sabor artesanal!
                     </p></div>
-                <div class="row-span-2 border-red-300 border-2 px-24 z-40"><button className='border-3 rounded-2xl border-green-50 text-green-50 my-14 p-2 hover:bg-green-50 hover:text-[#7BCAB2]'>
+                <div class="row-span-2 border-red-300 border-2 lg:px-24 z-40"><button className='border-3 rounded-2xl border-green-50 text-green-50 my-14 p-2 hover:bg-green-50 hover:text-[#7BCAB2]'>
                         Comprar Ahora!
                     </button></div>
                 </div>
