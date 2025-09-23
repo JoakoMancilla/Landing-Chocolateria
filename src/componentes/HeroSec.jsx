@@ -23,7 +23,7 @@ export const HeroSec = () => {
                 </div>
             </section>
             <img className='w-full bg-green-50' src="/SeparadorTop.svg" alt="" />
-            <section className='px-36 md:px-20 lg:px-96'>
+            <section className='sm:px-4 md:px-8 lg:px-32 xl:px-64 2xl:px-96'>
                 <div class="grid grid-flow-col grid-rows-2 gap-4">
                     <div class="col-span-2 row-span-1 border-red-300 border-2 z-40"><h2 className='float-left text-5xl font-bold text-green-50'>
                         Disfruta de los irresistibles <br />
