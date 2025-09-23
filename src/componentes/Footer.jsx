@@ -24,7 +24,7 @@ export const Footer = () => {
                     </div>
                 </div>
             </section>
-            <section name='footer' className='py-16 md:px-20 lg:px-96'>
+            <footer name='footer' className='py-16 md:px-20 lg:px-96'>
                 <div className=''>
                     <img src="https://lab.webix.cl/wp-content/uploads/2024/10/Logo-EJJAF-Blanco-480x480.png" alt=""
                         className='w-20 border-red-300 border-2' />
@@ -57,9 +57,11 @@ export const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div className='justify-items-center'>
+                    <hr className='border-t-2 border-green-50 my-4 w-full' />
+                    <p>&copy; 2025 EJJAF. Todos los derechos reservados.</p>
                 </div>
-            </section>
+            </footer>
         </div>
     )
 }
