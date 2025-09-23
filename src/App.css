@@ -4,6 +4,7 @@ body{
   background-color: #7BCAB2 ;
 }
 
+
 .slide-top {
 	-webkit-animation: slide-top 3s ease-in-out infinite alternate-reverse both;
 	        animation: slide-top 3s ease-in-out infinite alternate-reverse both;

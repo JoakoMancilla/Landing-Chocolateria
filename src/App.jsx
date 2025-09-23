@@ -3,6 +3,7 @@ import './App.css'
 import { HeroSec } from './componentes/HeroSec'
 import { Carousel } from './componentes/Carousel'
 import { Footer } from './componentes/Footer'
+import { MapSec } from './componentes/MapSec'
 
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
 
   return (
     <>
-      <Carousel/>
+      
       <HeroSec/>
+      <MapSec/>
       <Footer/>
     </>
   )
