@@ -3,7 +3,7 @@ import React from 'react';
 export const MapSec = () => {
     return (
         <div className="bg-green-50">
-            <div className="relative overflow-hidden py-16 px-36 md:px-20 lg:px-96">
+            <div className="relative py-16 overflow-hidden px-36 md:px-20 lg:px-96">
                 <h1 className="font-bold text-[#333333] pt-4 pb-16 text-3xl text-center">
                     ¡Visítanos en Rancagua!
                 </h1>
@@ -19,22 +19,22 @@ export const MapSec = () => {
                         className='mb-16'
                     ></iframe>
                     <img
-                        className="absolute top-0 left-0 -translate-x-2/3 -translate-y-2/3 w-32 md:w-48 lg:w-64 z-10"
+                        className="absolute top-0 left-0 z-10 w-32 -translate-x-2/3 -translate-y-2/3 md:w-48 lg:w-64"
                         src="https://lab.webix.cl/wp-content/uploads/2024/10/25-480x480.png"
                         alt=""
                     />
                     <img
-                        className="absolute top-0 right-0 translate-x-2/3 -translate-y-2/3 w-32 md:w-48 lg:w-64 z-10"
+                        className="absolute top-0 right-0 z-10 w-32 translate-x-2/3 -translate-y-2/3 md:w-48 lg:w-64"
                         src="https://lab.webix.cl/wp-content/uploads/2024/10/Flecha-3-480x480.png"
                         alt=""
                     />
                     <img
-                        className="absolute bottom-0 right-0 translate-x-3/4 translate-y-5/7 w-20 md:w-28 lg:w-40 z-10"
+                        className="absolute bottom-0 right-0 z-10 w-20 translate-x-3/4 translate-y-5/7 md:w-28 lg:w-40"
                         src="https://lab.webix.cl/wp-content/uploads/2024/10/24-480x480.png"
                         alt=""
                     />
                     <img
-                        className="absolute bottom-0 left-0 -translate-x-1/1 translate-y-5/7 w-32 md:w-48 lg:w-64 z-10"
+                        className="absolute bottom-0 left-0 z-10 w-32 -translate-x-1/1 translate-y-5/7 md:w-48 lg:w-64"
                         src="https://lab.webix.cl/wp-content/uploads/2024/10/Flecha-1-480x480.png"
                         alt=""
                     />

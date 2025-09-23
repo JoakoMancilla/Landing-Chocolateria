@@ -14,33 +14,33 @@ export const Carousel = () => {
 
     return (
         <Swiper
-        modules={[Navigation]}
-        navigation
-        loop={true}
-        className="w-full h-[80vh]"
+            modules={[Navigation]}
+            navigation
+            loop={true}
+            className="w-full h-[80vh]"
         >
-        {videos.map((src, i) => (
-            <SwiperSlide key={i} className="relative">
-            <video
-                src={src}
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="w-full h-full object-cover"
-            />
-            {/* Capa oscura encima (opcional) */}
-            <div className="absolute inset-0 bg-black/40"></div>
+            {videos.map((src, i) => (
+                <SwiperSlide key={i} className="relative">
+                    <video
+                        src={src}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        className="object-cover w-full h-full"
+                    />
+                    {/* Capa oscura encima (opcional) */}
+                    <div className="absolute inset-0 bg-black/40"></div>
 
-            {/* Texto o contenido encima del video */}
-            <div className="absolute inset-0 flex items-center justify-center">
-                <h2 className="text-white text-4xl font-bold">
-                    <img src="https://lab.webix.cl/wp-content/uploads/2024/10/Logo-EJJAF-pequeno.png" alt="" />
-                Slide {i + 1}
-                </h2>
-            </div>
-            </SwiperSlide>
-        ))}
+                    {/* Texto o contenido encima del video */}
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <h2 className="text-4xl font-bold text-white">
+                            <img src="https://lab.webix.cl/wp-content/uploads/2024/10/Logo-EJJAF-pequeno.png" alt="" />
+                            Slide {i + 1}
+                        </h2>
+                    </div>
+                </SwiperSlide>
+            ))}
         </Swiper>
     );
 }
