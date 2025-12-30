@@ -42,9 +42,11 @@ export const HeroSec = () => {
                         </p>
                     </div>
                     <div className="row-span-2 border-red-300 border-0 lg:px-24 z-40">
+                        <a href="/ventas">
                         <button className="border-3 rounded-2xl border-green-50 text-green-50 my-14 p-2  hover:bg-green-50 hover:text-[#7BCAB2] transition-colors duration-300 ease-in-out">
                         Comprar Ahora!
                         </button>
+                        </a>
                     </div>
                 </div>
             </section>
