@@ -11,23 +11,25 @@ export const Footer = () => {
                         className='m-auto w-xl'
                     />
                     <div className='bg-[#68352D] mx-auto p-16 rounded-[5px] grid grid-flow-col grid-cols-1 md:grid-cols-2 grid-rows-3 gap-4'>
-                        <div className='col-span-1 text-5xl font-bold border-2 border-red-300 '>
+                        <div className='col-span-1 text-5xl font-bold border-0 border-red-300 '>
                             <h1 className="tracking-widest">Habla con nosotros</h1>
                         </div>
-                        <div className='col-span-1 border-2 border-red-300'>
+                        <div className='col-span-1 border-0 border-red-300'>
                             <p>
                                 ¿Buscas productos artesanales de calidad?
                                 ¡Contáctanos y cotiza lo que necesitas!
                                 Estamos listos para ofrecerte lo mejor para tus eventos o momentos especiales.
                             </p>
                         </div>
-                        <div className='object-contain col-span-1 border-2 border-red-300'>
+                        <div className='object-contain col-span-1 border-0 border-red-300'>
                             <input type="text" id='correo' placeholder='Correo Electronico'
                                 className='w-full p-1 pl-4 mb-2 border-2 border-green-50 rounded-2xl' />
-                            <button className='bg-black rounded-2xl p-1 py-1.5 w-full font-bold'>CONTÁCTANOS</button>
+                            <button className='bg-black rounded-2xl p-1 py-1.5 w-full font-bold hover:bg-[#FF6847] transition-colors duration-300 ease-in-out'>
+                                CONTÁCTANOS
+                            </button>
                         </div>
                         <img
-                            className="hidden object-contain h-full col-span-1 col-start-2 border-2 border-red-300 md:block row-span-full"
+                            className="hidden object-contain h-full col-span-1 col-start-2 border-0 border-red-300 md:block row-span-full"
                             src="/BarraChocolate.svg"
                             alt=""
                         />
@@ -43,13 +45,13 @@ export const Footer = () => {
                 <div className='py-16 sm:px-4 md:px-8 lg:px-32 xl:px-64 2xl:px-96'>
                     <div>
                         <img src="https://lab.webix.cl/wp-content/uploads/2024/10/Logo-EJJAF-Blanco-480x480.png" alt=""
-                            className='w-20 border-2 border-red-300' />
-                        <h2 className='mt-2 font-bold border-2 border-red-300'>
+                            className='w-20 border-0 border-red-300' />
+                        <h2 className='mt-2 font-bold border-0 border-red-300'>
                             EJJAF | Productos Artesanales
                         </h2>
                     </div>
                     <br />
-                    <div className='border-2 border-red-300 '>
+                    <div className='border-0 border-red-300 '>
                         <p>
                             ¿Buscas productos artesanales de calidad? Contáctanos para más información sobre nuestras delicias,
                             desde quesos libres de gluten hasta frutos secos y chocolates.
@@ -57,8 +59,8 @@ export const Footer = () => {
                         </p>
                     </div>
                     <br />
-                    <div class="grid grid-flow-col grid-cols-2 grid-rows-1 gap-4">
-                        <div className='col-span-1 border-2 border-red-300'>
+                    <div className="grid grid-flow-col grid-cols-2 grid-rows-1 gap-4">
+                        <div className='col-span-1 border-0 border-red-300'>
                             <strong>Productos</strong>
                             <ul>
                                 <li>Alfajores & Cuchuflis</li>
@@ -66,7 +68,7 @@ export const Footer = () => {
                                 <li>Quesos</li>
                             </ul>
                         </div>
-                        <div className='col-span-1 border-2 border-red-300'>
+                        <div className='col-span-1 border-0 border-red-300'>
                             <strong>Contacto</strong>
                             <ul>
                                 <li>(255) 352-6258</li>

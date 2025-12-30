@@ -1,20 +1,16 @@
-import { useState } from 'react'
 import './App.css'
-import { HeroSec } from './componentes/HeroSec'
-import { Carousel } from './componentes/Carousel'
-import { Footer } from './componentes/Footer'
-import { MapSec } from './componentes/MapSec'
+import Inicio from './pages/Inicio'
+import Ventas from './pages/Ventas'
+import { Routes, Route } from 'react-router-dom'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
-      <HeroSec/>
-      <MapSec/>
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<Inicio />} />
+        <Route path="/Ventas" element={<Ventas />} />
+      </Routes>
     </>
   )
 }
