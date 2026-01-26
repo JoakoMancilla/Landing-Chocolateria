@@ -1,12 +1,71 @@
-# React + Vite
+# 🍫 Landing Chocolatería – Proyecto Frontend en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto frontend desarrollado con React que representa una landing page para una chocolatería.  
+Este proyecto está pensado como la base de un sitio más grande que, en el futuro, estará conectado a una API REST propia.
 
-Currently, two official plugins are available:
+Actualmente, la aplicación consume datos desde una API pública gratuita para mostrar productos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚧 Work in Progress
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este proyecto se encuentra en desarrollo activo.  
+Funcionalidades pendientes o en proceso:
+
+- Filtrado de productos (pendiente)
+- Carga dinámica de productos (pendiente)
+- Conexión con API REST propia (planificada)
+- Posibles mejoras futuras: carrito de compras y autenticación
+
+Esta sección se irá actualizando a medida que se agreguen nuevas funcionalidades.
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+- Consumo de API pública
+
+---
+
+## ⚙️ Instalación y ejecución
+
+Clonar el repositorio:
+
+git clone https://github.com/JoakoMancilla/Landing-Chocolateria.git
+
+Ingresar al proyecto:
+
+cd Landing-Chocolateria
+
+Instalar dependencias:
+
+npm install
+
+Ejecutar en modo desarrollo:
+
+npm run dev
+
+Abrir en el navegador:
+
+http://localhost:5173
+
+---
+
+## 📌 Estado del proyecto
+
+El proyecto funciona actualmente como una landing page funcional, con consumo de datos desde una API pública.  
+El enfoque principal está en el frontend, dejando preparada la estructura para una futura integración con backend propio.
+
+---
+
+## 👨‍💻 Autor
+
+Joaquín Mancilla  
+Frontend / Fullstack Developer
+
+Repositorio del proyecto:  
+https://github.com/JoakoMancilla/Landing-Chocolateria
