@@ -57,7 +57,7 @@ http://localhost:5173
 
 ## 📌 Estado del proyecto
 
-El proyecto funciona actualmente como una landing page funcional, con consumo de datos desde una API pública.  
+El proyecto funciona actualmente como una landing page, con consumo de datos desde una API pública.  
 El enfoque principal está en el frontend, dejando preparada la estructura para una futura integración con backend propio.
 
 ---
